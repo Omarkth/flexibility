@@ -14,7 +14,7 @@
     <ContentPage.Content>
         <ScrollView>
             <FlexLayout StyleClass="content" >
-                <Image StyleClass="poster" Source="ragnarok.jpg"/>
+                <Image StyleClass="poster" Source="ragnarok.jpg" IsVisible="False" />
                 <Label Style="{StaticResource FAStyle}" StyleClass="popularity" Text="&#xf005;&#xf005;&#xf005;&#xf005;&#xf005;" />
                 <Label StyleClass="year" Text="2017" />
                 <Label StyleClass="rating" Text="PG-13" />
